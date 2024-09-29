@@ -34,7 +34,7 @@
 3. Перейдите в директорию проекта:
 
    ```bash
-   cd goodbaeDPI-auto-args
+   cd goodbyedpi
    ```
 
 4. Соберите проект с помощью CMake:
