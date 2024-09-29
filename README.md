@@ -29,7 +29,7 @@
   
 2. Далее клонируем репизиторий:
      ```bash
-       git clone https://github.com/ваш-аккаунт/goodbaeDPI-auto-args.git
+       git clone https://github.com/anlix-y/Auto_GoodbyeDPI
      
 3. Перейдите в директорию проекта:
 
