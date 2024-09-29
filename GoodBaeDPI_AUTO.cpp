@@ -71,27 +71,8 @@ int main() {
     arguments1 = "-6 -e1";
         break;
     default:
-        return 0;
+        arguments1 = "-5 -e1";
         break;
-    }
-    action = 0;
-    if (arguments1 == "")
-    {
-        std::cout << "Enter the desired argent, or leave the default one.:\n"
-        << "1 - default\n" << "2 - Enter your argent(expert)" << std::endl;
-        std::cin >> action;
-        switch (action)
-        {
-            case 1:
-            arguments1 = "-5 -e1";
-            break;
-            
-            case 2:
-            std::cout << "Enter your argent(expert):" << std::endl;
-            std::cin >> arguments1;
-            break;
-        }
-        action = 0;
     }
     system("cls");
 
